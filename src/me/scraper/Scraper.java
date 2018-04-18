@@ -18,11 +18,12 @@ public class Scraper {
     private Response response;
 
     private String subreddit;
-    private String url = "https://www.reddit.com/r/" + subreddit + "/.json?limit=100";
+    private String url;
     private File savePath;
 
     public Scraper(String subreddit) {
         this.subreddit = subreddit;
+        this.url = "https://www.reddit.com/r/" + subreddit + "/.json?limit=100";
         this.savePath = new File(subreddit);
     }
 
