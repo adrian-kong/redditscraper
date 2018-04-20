@@ -14,6 +14,6 @@ This scraper should work for every subreddit
 Tested on r/memes, r/dankmemes, r/wallpaper
 
 TODO:
-- Threading save method in Scraper for efficiency.
-- Recompile new artifact with changed memeData.get(title) to memeData.get(title+ ".jpg" and title +".gif")
-- Fix saving file name length
+- [x] Threading save method in Scraper for efficiency.
+- [x] Recompile new artifact with changed memeData.get(title) to memeData.get(title+ ".jpg" and title +".gif")
+- [ ] Fix saving file name length
